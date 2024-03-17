@@ -29,7 +29,7 @@ export const Header = () => {
             <div className="col-12 d-flex flex-wrap align-items-center">
 
                 <div className="logo-box">
-                    <Link href="index.html">
+                    <Link href="/">
                         <img src="/img/logo/logo.png" alt="logo"/>
                     </Link>
                 </div>

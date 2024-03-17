@@ -10,7 +10,6 @@ import "./assets/css/owl.carousel.min.css"
 import "./assets/css/odometer-theme-default.css"
 import "./assets/css/magnific-popup.css"
 import "./assets/css/main.css"
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
