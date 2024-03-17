@@ -11,7 +11,6 @@ import "./assets/css/odometer-theme-default.css"
 import "./assets/css/magnific-popup.css"
 import "./assets/css/main.css"
 import Head from "next/head";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +22,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>Akash Portfolio</title>
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
