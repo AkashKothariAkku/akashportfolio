@@ -20,9 +20,9 @@ export const Skills = () => {
         <div className="col-md-12">
             <div className="skills-widget d-flex flex-wrap justify-content-center align-items-center">
                 {
-                    skillData.map((val)=>{
+                    skillData.map((val, index)=>{
                         return (
-                            <div className="skill-item wow fadeInUp" data-wow-delay=".3s">
+                            <div className="skill-item wow fadeInUp" data-wow-delay=".3s" key={`${index}`}>
                             <div className="skill-inner">
                                 <div className="icon-box">
                                     <img src={val.image} alt=""/>

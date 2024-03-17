@@ -23,24 +23,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <Script src="./assets/js/jquery.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/bootstrap.bundle.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/nice-select.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/backToTop.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/smooth-scroll.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/appear.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/wow.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/gsap.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/one-page-nav.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/lightcase.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/owl.carousel.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/isotope.pkgd.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/odometer.min.js" strategy="lazyOnload"/>
-    <Script src="./assets/js/magnific-popup.js" strategy="lazyOnload"/>
-
-    {/* <Script src="./assets/js/main.js" strategy="lazyOnload"/> */}
-      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );

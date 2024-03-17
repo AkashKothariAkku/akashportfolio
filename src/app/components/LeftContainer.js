@@ -19,8 +19,8 @@ export const LeftContainer = () => {
             <Link href="../assets/img/portfolio/CV.pdf" target="_blank" className="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s" download>Download
                 CV</Link>
             <ul className="ul-reset social-icons wow fadeInLeft" data-wow-delay="1.6s">
-                {socialIcons.map((e)=>{
-                    return <li><Link href={e.link} target='_blank'><i className={e.className}></i></Link></li>
+                {socialIcons.map((e, index)=>{
+                    return <li key={`${index}`}><Link href={e.link} target='_blank'><i className={e.className}></i></Link></li>
                 })}
             </ul>
         </div>

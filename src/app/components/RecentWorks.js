@@ -22,8 +22,8 @@ export const RecentWorks = () => {
     <div className="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
         <div className="button-group filter-button-group">
             {
-                filterName.map((val)=>{
-                    return <button style={activeName===val ? {"backgroundColor":"#8750f7"} : {"backgroundColor":""}} onClick={()=>setActiveName(val)}>{val}</button>
+                filterName.map((val, index)=>{
+                    return <button key={`${index}`} style={activeName===val ? {"backgroundColor":"#8750f7"} : {"backgroundColor":""}} onClick={()=>setActiveName(val)}>{val}</button>
                 })
             }
         </div>
@@ -33,9 +33,9 @@ export const RecentWorks = () => {
         <div className="portfolio-sizer"></div>
         <div className="gutter-sizer"></div>
         <div className='row'>
-            {recentWorksHeading.map((val)=>{
+            {recentWorksHeading.map((val, index)=>{
                 return (
-                   activeName===val.name ? <div className="col-md-6 portfolio-item branding">
+                   activeName===val.name ? <div className="col-md-6 portfolio-item branding" key={`${index}`}>
                     <div className="image-box">
                         <img src={val.image} alt=""/>
                     </div>
@@ -48,7 +48,7 @@ export const RecentWorks = () => {
                             className="portfolio-link modal-popup"></button>
                     </div>
                     </Link>
-                </div> : activeName==="All" ? <div className="col-md-6 portfolio-item branding">
+                </div> : activeName==="All" ? <div className="col-md-6 portfolio-item branding" key={`${index}`}>
                     <div className="image-box">
                         <img src={val.image} alt=""/>
                     </div>

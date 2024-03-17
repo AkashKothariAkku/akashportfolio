@@ -14,7 +14,7 @@ export const QualityServices = () => {
             {qualityData.map((val,index)=>{
                 return(
                     <div className={`service-item d-flex flex-wrap align-items-center wow fadeInUp ${active===index+1 ? "quality" : ""}`}
-                    data-wow-delay=".5s" onMouseOver={()=>setNumber(index+1)} onClick={()=>setNumber(index+1)}>
+                    data-wow-delay=".5s" onMouseOver={()=>setNumber(index+1)} onClick={()=>setNumber(index+1)} key={`${index}`}>
                     <div className="left-box d-flex flex-wrap align-items-center">
                         <span className="number">0{index+1}</span>
                         <h3 className="service-title">{val.title}</h3>

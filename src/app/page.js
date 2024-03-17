@@ -95,11 +95,11 @@ export default function Home() {
                                     </div>
                                     <ul>
                                         <li>Reinvent Your Business to Better</li>
-                                        <li>Pioneering the Internet's First</li>
-                                        <li>Pioneering the Design World's First</li>
-                                        <li>Pioneering the Design World's First</li>
-                                        <li>Pioneering the Design World's First</li>
-                                        <li>Pioneering the Design World's First</li>
+                                        <li>Pioneering the Internet`s First</li>
+                                        <li>Pioneering the Design World`s First</li>
+                                        <li>Pioneering the Design World`s First</li>
+                                        <li>Pioneering the Design World`s First</li>
+                                        <li>Pioneering the Design World`s First</li>
                                     </ul>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="section-header">
-                            <h2 className="section-title wow fadeInLeft" data-wow-delay=".3s">My Team's Stories</h2>
+                            <h2 className="section-title wow fadeInLeft" data-wow-delay=".3s">My Team`s Stories</h2>
                             <p className=" wow fadeInLeft" data-wow-delay=".4s">When we work together on different projects, my team appreciates my dedication, collaboration, and contribution to achieving our goals.</p>
                         </div>
                     </div>

@@ -1,20 +1,20 @@
 "use client"
 import React from 'react'
-import OwlCarousel from '@ntegral/react-owl-carousel';
 import { clientData } from '../constant/ClientData';
-
+import dynamic from 'next/dynamic';
+const OwlCarousel = dynamic(() => import('@ntegral/react-owl-carousel'), { ssr: false });
 export const ClientStories = () => {
   return (
     <div className="testimonials-widget wow fadeInRight" data-wow-delay=".5s">
-   <OwlCarousel
+  {(typeof window !== 'undefined') && <OwlCarousel
     className="owl-theme"
     loop
     items={2}
 >
     {
-        clientData.map((val)=>{
+        clientData.map((val,index)=>{
             return (
-                <div className="testimonial-item">
+                <div className="testimonial-item" key={`${index}`}>
                 <div className="top-area d-flex flex-wrap justify-content-between">
                     <div className="logo-box">
                         <img src={val.logo} alt="" style={{backgroundColor:"white", padding:"3px", borderRadius:"1px"}}/>
@@ -60,7 +60,7 @@ export const ClientStories = () => {
             )
         })
     }
-        </OwlCarousel>
+        </OwlCarousel>}
 </div>
   )
 }

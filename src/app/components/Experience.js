@@ -11,9 +11,9 @@ export const Experience = () => {
                         </div>
 
                         <div className="resume-widget">
-                            {experienceData.map((val)=>{
+                            {experienceData.map((val,index)=>{
                                 return (
-                                    <div className="resume-item wow fadeInLeft" data-wow-delay=".4s">
+                                    <div className="resume-item wow fadeInLeft" data-wow-delay=".4s" key={`${index}`}>
                                 <div className="time">
                                     {val.year}
                                 </div>
@@ -33,9 +33,9 @@ export const Experience = () => {
                         </div>
 
                         <div className="resume-widget">
-                        {educationData.map((val)=>{
+                        {educationData.map((val, index)=>{
                                 return (
-                                    <div className="resume-item wow fadeInLeft" data-wow-delay=".4s">
+                                    <div className="resume-item wow fadeInLeft" data-wow-delay=".4s" key={`${index}`}>
                                 <div className="time">
                                     {val.year}
                                 </div>

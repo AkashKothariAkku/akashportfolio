@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link"
+import React from "react"
 
 export const RecentWorksDescription = () => {
   return (
@@ -15,7 +15,7 @@ export const RecentWorksDescription = () => {
                         <div className="desc">
                             <p>They are was greater open above shelter lets itself under appear sixth open gathering
                                 made
-                                upon can't own above midst gathering gathered he one us saying can't divide.</p>
+                                upon can`t own above midst gathering gathered he one us saying can`t divide.</p>
                         </div>
                         <Link href="#" className="btn tj-btn-primary">live preview <i className="fal fa-arrow-right"></i></Link>
                     </div>
@@ -59,16 +59,16 @@ export const RecentWorksDescription = () => {
                     <div className="desc">
                         <p>The goal is there are many variations of passages of Lorem Ipsum available, but the majority
                             have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            suffered alteration in some form, by injected humour, or randomised words which don`t look
                             even
                             slightly believable.</p>
 
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                             suffered
-                            alteration in some form, by injected humour, or randomised words which don't look even
+                            alteration in some form, by injected humour, or randomised words which don`t look even
                             slightly
                             believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                            isn't
+                            isn`t
                             anything embarrassing hidden in the middle of text.</p>
                     </div>
                 </div>
@@ -80,16 +80,16 @@ export const RecentWorksDescription = () => {
                         </div>
                         <div className="story_content">
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                suffered alteration in some form, by injected humour, or randomised words which don`t
                                 look
                                 even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
                                 be
-                                sure there isn't anything embarrassing hidden in the middle of text. There are many
+                                sure there isn`t anything embarrassing hidden in the middle of text. There are many
                                 variations of passages of Lorem Ipsum available, but the majority have suffered
                                 alteration
-                                in some form, by injected humour, or randomised words which don't look even slightly
+                                in some form, by injected humour, or randomised words which don`t look even slightly
                                 believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                isn't anything embarrassing hidden in the middle of text.</p>
+                                isn`t anything embarrassing hidden in the middle of text.</p>
                         </div>
                     </div>
                     <div className="portfolio_approach">
@@ -98,16 +98,16 @@ export const RecentWorksDescription = () => {
                         </div>
                         <div className="approach_content">
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                suffered alteration in some form, by injected humour, or randomised words which don`t
                                 look
                                 even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
                                 be
-                                sure there isn't anything embarrassing hidden in the middle of text. There are many
+                                sure there isn`t anything embarrassing hidden in the middle of text. There are many
                                 variations of passages of Lorem Ipsum available, but the majority have suffered
                                 alteration
-                                in some form, by injected humour, or randomised words which don't look even slightly
+                                in some form, by injected humour, or randomised words which don`t look even slightly
                                 believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                isn't anything embarrassing hidden in the middle of text.</p>
+                                isn`t anything embarrassing hidden in the middle of text.</p>
                         </div>
                     </div>
                 </div>

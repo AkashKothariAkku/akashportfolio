@@ -43,8 +43,8 @@ export const Header = () => {
                 <div className={menu ? `header-menu opened` : `header-menu`}>
                     <nav>
                     <ul>
-                        {HeaderData.map((val)=>{
-                            return <li><Link href={`#${val.url}`} onClick={changeMenu}>{val.name}</Link></li>
+                        {HeaderData.map((val, index)=>{
+                            return <li key={`${index}`}><Link href={`#${val.url}`} onClick={changeMenu}>{val.name}</Link></li>
                         })}
                         </ul>
                     </nav>
