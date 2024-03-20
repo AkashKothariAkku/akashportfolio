@@ -16,8 +16,8 @@ export const LeftContainer = () => {
 
         <p className="lead wow fadeInLeft" data-wow-delay="1.4s">Skilled developer experienced in MERN stack and Next.js, creating efficient web apps for great user experiences.</p>
         <div className="button-box d-flex flex-wrap align-items-center">
-            <Link href="../assets/img/portfolio/CV.pdf" target="_blank" className="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s" download>Download
-                CV</Link>
+            <Link href="../assets/img/portfolio/akashResume.pdf" target="_blank" className="btn tj-btn-secondary wow fadeInLeft" data-wow-delay="1.5s" download>Download
+                Resume</Link>
             <ul className="ul-reset social-icons wow fadeInLeft" data-wow-delay="1.6s">
                 {socialIcons.map((e, index)=>{
                     return <li key={`${index}`}><Link href={e.link} target='_blank'><i className={e.className}></i></Link></li>

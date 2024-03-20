@@ -1,5 +1,5 @@
 export const skillData = [{
-    name: "WordPess",
+    name: "WordPress",
     number:"80%",
     image:"/img/icons/wp.svg"
 },{
